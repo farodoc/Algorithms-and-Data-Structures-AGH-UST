@@ -1,3 +1,9 @@
+# Given list of people who know each other. People are represented as number between 0 and n-1.
+# First day person 0 passes the message to all his friends. Second day each friend passes this
+# message to all their friends who doesn't know this message and so on. Find algorithm that
+# returns the day when the most people knew the message and the number of people who received it
+# that day.
+
 from collections import deque
 
 def messages(G, s):

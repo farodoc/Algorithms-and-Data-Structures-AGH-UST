@@ -1,3 +1,9 @@
+# Given 2D array [N][N] in which each cell has the value "W" representing water or "L"
+# representing land. Lake is a group of water cells connected by their banks. Assuming
+# that array[0][0] and array[n-1][n-1] are land. Check if it is possible to go from
+# [0][0] to [n-1][n-1] by land. You can only walk sideways not diagonally. Also find
+# the shortest path between this cells.
+
 from collections import deque
 
 def bfs(G):

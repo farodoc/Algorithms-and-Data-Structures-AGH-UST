@@ -1,3 +1,7 @@
+# We have a map of city where are houses and shops. There are also roads (each of length 1)
+# that connect a house with a house or a house with a shop. We have to find for each home
+# the distance to the nearest shop.
+
 from collections import deque
 
 def bfs(roads, shops):

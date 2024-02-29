@@ -1,3 +1,8 @@
+# We are given a weighted graph G. Super cool path is one that is not only the shortest weighted path
+# between v and u, but also has the fewest edges (in other words we are looking for the shortest paths
+# in terms of the number of edges among the shortest paths in the weight sense). Find algorithm that
+# for a given starting vertex s will find super cool paths to other vertices.
+
 from queue import PriorityQueue
 from math import inf
 

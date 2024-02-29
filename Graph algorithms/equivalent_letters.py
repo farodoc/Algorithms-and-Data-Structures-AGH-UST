@@ -1,3 +1,12 @@
+# We are given three strings A, B and C. A and B are of the same length. The following properties apply:
+#   1) Letters at the sane index in strings A and B are equivalent
+#   2) If letter a is equivalent with letter b, then letter b is equivalent with letter a
+#   3) If letter a is equivalent with letter b and letter b is equivalent with letter c, then letter
+#      a is equivalent to letter c
+#   4) Each letter is equivalent to itself
+# In string C we can replace any letter with a letter equivalent to it. What is the smallest
+# lexicographically string that we can create in this way?
+
 class Node:
     def __init__(self, value):
         self.value = value

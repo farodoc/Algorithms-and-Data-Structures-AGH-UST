@@ -1,3 +1,10 @@
+# Let's imagine an underground labyrinth composed of huge caves connected by narrow corridors. In one
+# of caves, the dwarves have built their settlement and each of the other caves has a number of trolls.
+# The dwarves want to plan their defense in case of being attacked by trolls. They intend to sneak in
+# and plant an explosive load in one of the corridors, so that the trolls living beyond this corridor
+# have no path to reach the dwarven settlement. Which of the corridors should be blown up to cut off
+# trolls' access to the dwarven settlement.
+
 from math import inf
 from collections import deque
 from queue import Queue

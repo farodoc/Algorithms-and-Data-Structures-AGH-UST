@@ -1,3 +1,11 @@
+# A single digit is one that is exactly once in a given number. A multiple digit is one that is
+# more than once in a given number. Natural number A is prettier than the natural number B
+# if there are more single digits in A than in B, and if there are the same number of single
+# digits, prettier number is one with fewer multiple digits. For example: 123 is prettier than
+# 456, 1266 is prettier than 114577 and numbers 2344 and 67333 are equally pretty. We are given
+# an array T with natural numbers. Find algorithm pretty_sort(T) that sorts the elements of an
+# array T from the prettiest to the least pretty.
+
 from math import log10
 
 def num_types(x):
